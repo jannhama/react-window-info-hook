@@ -1,9 +1,9 @@
 {
   "name": "react-window-info-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Window resize hook for React and TypeScript. Returns window size and simple responsive info.",
-  "main": "./lib/index.js",
-  "types": "./lib/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "directories": {
     "test": "test"
   },
@@ -45,5 +45,8 @@
   },
   "dependencies": {
     "react": "^16.8.6"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
