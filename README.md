@@ -9,7 +9,7 @@ not render them at all.
 ## Install
 
 ```
-npm install use-window-info-hook
+npm install react-window-info-hook
 ```
 
 ## Usage
