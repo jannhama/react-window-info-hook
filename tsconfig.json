@@ -1,17 +1,23 @@
 {
   "compilerOptions": {
     "target": "es5",
+    "outDir": "./dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
     "lib": [
       "esnext",
       "dom"
     ],
-    "module": "commonjs",
-    "outDir": "./dist"
+    "rootDir": "src",
+    "jsx": "react",
+    "pretty": true
   },
   "include": [
     "./src/**/*"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist",
+    "test"
   ]
 }
