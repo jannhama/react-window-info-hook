@@ -19,7 +19,7 @@ In the example _mobile_ div is shown is hook says window size is below mobile li
 _tablet_ div.
 
 ```ts
-import {useWindowInfo} from 'use-window-info-hook'
+import {useWindowInfo} from 'react-window-info-hook'
 
 export function MyReactComponent(): JSX.Element {
   const info = useWindowInfo();
