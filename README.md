@@ -65,4 +65,4 @@ Breakpoint info was gathered from [Media Genesis site](https://mediag.com/blog/p
 ## License 
 Released under [MIT](https://opensource.org/licenses/MIT) license.
 
-&copy; 2018 Janne Hämäläinen.
+&copy; 2019 Janne Hämäläinen.
