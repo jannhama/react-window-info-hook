@@ -15,7 +15,7 @@ npm install react-window-info-hook
 ## Usage
 
 Usage is pretty straight forward. Just import the hook and call the hook function in your component.
-In the example _mobile_ div is shown is hook says window size is below mobile limit. Otherwise we render
+In the example _mobile_ div is shown if hook says window size is below mobile limit. Otherwise we render
 _tablet_ div.
 
 ```ts
