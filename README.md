@@ -62,6 +62,10 @@ as hook returns also current size of window.
 
 Breakpoint info was gathered from [Media Genesis site](https://mediag.com/blog/popular-screen-resolutions-designing-for-all/)
 
+## Server side rendering (SSR)
+
+Server side rendering crashed initial version of this component. This is now attempted to be fixed by checking if window exist.
+
 ## License 
 Released under [MIT](https://opensource.org/licenses/MIT) license.
 
