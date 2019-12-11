@@ -1,11 +1,15 @@
 import {renderHook} from 'react-hooks-testing-library';
-import {useWindowInfo} from '../src';
+import {useWindowInfo} from '../../src';
 
 describe('use-window-info', () => {
+  beforeEach(() => {
+  });
 
   describe('Change screen size to mobile', () => {
     beforeEach(() => {
+      // @ts-ignore
       window.innerHeight = 480;
+      // @ts-ignore
       window.innerWidth = 320;
     });
     it('Check if correct resolution is returned', () => {
@@ -27,7 +31,9 @@ describe('use-window-info', () => {
 
   describe('Change screen size to tablet', () => {
     beforeEach(() => {
+      // @ts-ignore
       window.innerHeight = 1024;
+      // @ts-ignore
       window.innerWidth = 768;
     });
     it('Check if correct resolution is returned', () => {
@@ -49,7 +55,9 @@ describe('use-window-info', () => {
 
   describe('Change screen from portrait to landscape', () => {
     beforeEach(() => {
-      window.innerHeight = 768;
+      // @ts-ignore
+      window.innerHeight = 512;
+      // @ts-ignore
       window.innerWidth = 1024;
     });
     it('Check if desktop responsive mode is returned', () => {

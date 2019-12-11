@@ -14,13 +14,13 @@ function getWindowSize() {
 }
 function useWindowInfo() {
     var _a = react_1.useState(getWindowSize()), windowSize = _a[0], setWindowSize = _a[1];
-    react_1.useEffect(function () {
+    react_1.useEffect(function() {
         function handleResize() {
             // get window size and store it in the state.
             setWindowSize(getWindowSize());
         }
-        window.addEventListener('resize', handleResize);
-        return function () { return window.removeEventListener('resize', handleResize); };
+        window.addEventListener("resize", handleResize);
+        return function() { return window.removeEventListener("resize", handleResize); };
     }, []);
     return {
         windowSize: { width: windowSize.innerWidth, height: windowSize.innerHeight },

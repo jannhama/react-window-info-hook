@@ -1,8 +1,8 @@
 module.exports = {
-  preset: 'ts-jest',
+  preset: "ts-jest",
   globals: {
-    'ts-jest': {
-      isolatedModules: true
-    }
-  }
-}
+    "ts-jest": {
+      isolatedModules: true,
+    },
+  },
+};

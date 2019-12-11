@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import {useEffect, useState} from 'react';
 
 // Common screen sizes for tablet and desktop
 // https://mediag.com/blog/popular-screen-resolutions-designing-for-all/
@@ -15,10 +15,9 @@ interface IWindowInfo {
 }
 
 function getWindowSize(): { innerWidth: number, innerHeight: number } {
-  const {innerWidth, innerHeight} = window;
   return {
-    innerHeight,
-    innerWidth,
+    innerHeight: (typeof window !== 'undefined') ? window.innerHeight : 0,
+    innerWidth: (typeof window !== 'undefined') ? window.innerWidth : 0,
   };
 }
 
@@ -31,8 +30,10 @@ export function useWindowInfo(): IWindowInfo {
       setWindowSize(getWindowSize());
     }
 
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    if (typeof window !== 'undefined') {
+      window.addEventListener('resize', handleResize);
+      return () => window.removeEventListener('resize', handleResize);
+    }
   }, []);
 
   return {
