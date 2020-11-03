@@ -6,6 +6,8 @@ Typical use case would responsive web design with react. In the past CSS **displ
 elements from the DOM as well but it doesn't behave like that anymore. Correct way to hide elements is just to
 not render them at all.
 
+[![Build Status](https://dev.azure.com/janneahamalainen/janneahamalainen/_apis/build/status/jannhama.react-window-info-hook?branchName=master)](https://dev.azure.com/janneahamalainen/janneahamalainen/_build/latest?definitionId=1&branchName=master)
+
 ## Install
 
 ```
