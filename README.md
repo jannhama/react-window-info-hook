@@ -1,3 +1,5 @@
+[![Build Status](https://dev.azure.com/janneahamalainen/janneahamalainen/_apis/build/status/jannhama.react-window-info-hook?branchName=master)](https://dev.azure.com/janneahamalainen/janneahamalainen/_build/latest?definitionId=1&branchName=master)
+
 # react-window-info-hook
 Window resize hook for React and TypeScript
 
@@ -5,8 +7,6 @@ This is a simple helper hook to get current browser window size on run time.
 Typical use case would responsive web design with react. In the past CSS **display: none** used to hide
 elements from the DOM as well but it doesn't behave like that anymore. Correct way to hide elements is just to
 not render them at all.
-
-[![Build Status](https://dev.azure.com/janneahamalainen/janneahamalainen/_apis/build/status/jannhama.react-window-info-hook?branchName=master)](https://dev.azure.com/janneahamalainen/janneahamalainen/_build/latest?definitionId=1&branchName=master)
 
 ## Install
 
