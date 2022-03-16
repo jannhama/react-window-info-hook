@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.useWindowInfo = void 0;
 var react_1 = require("react");
 // Common screen sizes for tablet and desktop
 // https://mediag.com/blog/popular-screen-resolutions-designing-for-all/

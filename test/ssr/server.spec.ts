@@ -1,3 +1,7 @@
+/**
+ * @jest-environment node
+ */
+
 import {renderHook} from 'react-hooks-testing-library';
 import {useWindowInfo} from '../../src';
 
