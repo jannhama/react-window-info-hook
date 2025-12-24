@@ -71,4 +71,4 @@ Server side rendering crashed initial version of this component. This is now att
 ## License 
 Released under [MIT](https://opensource.org/licenses/MIT) license.
 
-&copy; 2019 Janne Hämäläinen.
+&copy; 2019-2025 Janne Hämäläinen.
